@@ -32,7 +32,7 @@ public class Abonne extends JFrame implements ActionListener {
 	JScrollPane js;
 	
 	public Abonne(){
-		ImageIcon icon3 = new ImageIcon("book.png");
+		ImageIcon icon3 = new ImageIcon("pics/book.png");
 		this.setIconImage(icon3.getImage());
 		this.setTitle("My Library");
 		this.setSize(700,500);
@@ -78,7 +78,7 @@ public class Abonne extends JFrame implements ActionListener {
 		
 		pn.add(tf2);
 		//button
-		Icon icon1 = new ImageIcon("insert.png");
+		Icon icon1 = new ImageIcon("pics/insert.png");
 		Image scaledImage1 = ((ImageIcon) icon1).getImage().getScaledInstance(25, 25, Image.SCALE_SMOOTH);
         ImageIcon scaledIcon1 = new ImageIcon(scaledImage1);
 		bt1=new JButton(scaledIcon1);
@@ -88,7 +88,7 @@ public class Abonne extends JFrame implements ActionListener {
 		bt1.setForeground(new Color(255, 255, 255));
 		pn.add(bt1);
 		
-		Icon icon2 = new ImageIcon("delete.png");
+		Icon icon2 = new ImageIcon("pics/delete.png");
 		Image scaledImage2 = ((ImageIcon) icon2).getImage().getScaledInstance(23, 23, Image.SCALE_SMOOTH);
         ImageIcon scaledIcon2 = new ImageIcon(scaledImage2);
 		bt2=new JButton("Delete",scaledIcon2);
@@ -98,7 +98,7 @@ public class Abonne extends JFrame implements ActionListener {
 		bt2.addActionListener(this);
 		pn.add(bt2);
 		
-		Icon icon = new ImageIcon("transparency.png");
+		Icon icon = new ImageIcon("pics/transparency.png");
 		Image scaledImage = ((ImageIcon) icon).getImage().getScaledInstance(25, 25, Image.SCALE_SMOOTH);
         ImageIcon scaledIcon = new ImageIcon(scaledImage);
 		bt4=new JButton(scaledIcon);
@@ -124,7 +124,7 @@ public class Abonne extends JFrame implements ActionListener {
 		
 		
         
-		Icon icon4 = new ImageIcon("editing.png");
+		Icon icon4 = new ImageIcon("pics/editing.png");
 		Image scaledImage4 = ((ImageIcon) icon4).getImage().getScaledInstance(23, 23, Image.SCALE_SMOOTH);
         ImageIcon scaledIcon4 = new ImageIcon(scaledImage4);
 		bt6=new JButton("Edit",scaledIcon4);
@@ -134,7 +134,7 @@ public class Abonne extends JFrame implements ActionListener {
 		bt6.setBackground(new Color(142, 154, 175));
 		pn.add(bt6);
 
-		Icon icon6 = new ImageIcon("log-out.png");
+		Icon icon6 = new ImageIcon("pics/log-out.png");
 		Image scaledImage6 = ((ImageIcon) icon6).getImage().getScaledInstance(23, 23, Image.SCALE_SMOOTH);
         ImageIcon scaledIcon6 = new ImageIcon(scaledImage6);
 		bt7=new JButton("Log out",scaledIcon6);

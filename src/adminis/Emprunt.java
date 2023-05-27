@@ -28,7 +28,7 @@ public class Emprunt extends JFrame implements ActionListener {
 	JTextField tf1,tf5,tf6,tf7;
 	JButton jb,jb2,bt3,blivre,babonne,bt7;
 	public Emprunt(){
-		ImageIcon icon3 = new ImageIcon("book.png");
+		ImageIcon icon3 = new ImageIcon("pics/book.png");
 		this.setIconImage(icon3.getImage());
 		this.setTitle("My Library");
 		this.setSize(500,650);
@@ -119,7 +119,7 @@ catch(SQLException ex){
 		jcb2.setBounds(150,360,220,25);
 		jcb2.setBackground(new Color(247, 244, 234));
 		
-		Icon icon6 = new ImageIcon("log-out.png");
+		Icon icon6 = new ImageIcon("pics/log-out.png");
 		Image scaledImage6 = ((ImageIcon) icon6).getImage().getScaledInstance(23, 23, Image.SCALE_SMOOTH);
         ImageIcon scaledIcon6 = new ImageIcon(scaledImage6);
 		bt7=new JButton("Log out",scaledIcon6);

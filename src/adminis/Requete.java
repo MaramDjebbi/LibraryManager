@@ -36,7 +36,7 @@ public class Requete extends JFrame implements ActionListener {
 	Connec cn=new Connec();
 	
 	public Requete(){
-		ImageIcon icon3 = new ImageIcon("book.png");
+		ImageIcon icon3 = new ImageIcon("pics/book.png");
 		this.setIconImage(icon3.getImage());
 		this.setTitle("My Library");
 		
@@ -94,7 +94,7 @@ catch(SQLException ex){
 }
 		pn.add(jcb2);
 		//button
-				Icon icon = new ImageIcon("transparency.png");
+				Icon icon = new ImageIcon("pics/transparency.png");
 				Image scaledImage = ((ImageIcon) icon).getImage().getScaledInstance(20, 20, Image.SCALE_SMOOTH);
 				ImageIcon scaledIcon = new ImageIcon(scaledImage);
 				bt1=new JButton(scaledIcon);
@@ -155,7 +155,7 @@ catch(SQLException ex){
 		bt5.setBackground(new Color(142, 154, 175));
 		pn.add(bt5);
 				
-				Icon icon6 = new ImageIcon("log-out.png");
+				Icon icon6 = new ImageIcon("pics/log-out.png");
 				Image scaledImage6 = ((ImageIcon) icon6).getImage().getScaledInstance(23, 23, Image.SCALE_SMOOTH);
 				ImageIcon scaledIcon6 = new ImageIcon(scaledImage6);
 				bt7=new JButton("Log out",scaledIcon6);

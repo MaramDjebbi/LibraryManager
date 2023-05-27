@@ -26,7 +26,7 @@ public class Authentification extends JFrame implements ActionListener {
 	JButton jb;
 	
 	public Authentification(){
-		ImageIcon icon3 = new ImageIcon("book.png");
+		ImageIcon icon3 = new ImageIcon("pics/book.png");
 		this.setIconImage(icon3.getImage());
 		this.setTitle("My Library");
 		this.setSize(400,500);
@@ -68,7 +68,7 @@ public class Authentification extends JFrame implements ActionListener {
 		
 	
 		//button
-		Icon icon6 = new ImageIcon("log-in.png");
+		Icon icon6 = new ImageIcon("pics/log-in.png");
 		Image scaledImage6 = ((ImageIcon) icon6).getImage().getScaledInstance(23, 23, Image.SCALE_SMOOTH);
         ImageIcon scaledIcon6 = new ImageIcon(scaledImage6);
 		jb=new JButton("Log in",scaledIcon6);
